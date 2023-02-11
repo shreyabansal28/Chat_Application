@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    background-color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(130, 85, 2) ;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.navbar h1{
+    margin-left: 5px;
+    color: rgba(232, 134, 36, 0.972);
+}
+.container{
+    display: block;
+    border-radius: 10px;
+    /*justify-content: center;*/
+  /*  align-items: center;*/
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    margin-top:10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    border: 3px solid rgb(109, 72, 2);
+    border-radius: 10px;
+}
+.send_message{
+    width: 75%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display:block;
+}
+.message_left{
+    float: left;
+    background-color: orange ;
+    border: 2px solid orangered;
+    clear: both;
+    max-width: 44%;
+    margin: 10px 10px 10px 10px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+      text-overflow: inherit;
+      overflow-wrap: break-word;
+}
+.message_right{
+    float: right;
+    background-color: orange ;
+    border: 2px solid orangered;
+    clear: both;
+    max-width: 44%;
+    margin: 10px 10px 10px 10px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+#message{
+    width:90% ;
+    height: 25px;
+    border-radius: 10px;
+    border: 3px solid rgb(109, 72, 2);
+}
+
+@media (max-width: 950px){
+    #message{
+        width:67% ;
+        height: 25px;
+        border-radius: 10px;
+        border: 3px solid rgb(109, 72, 2);
+    }
+    
+}
